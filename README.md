@@ -11,11 +11,11 @@
 	*  Click **Create Cluster**
 
 	<img src='images/emr-02-create-cluster-quick-options.png'><br>
-	As soon as you crate the cluster, you will see the cluster in "Starting" mode:
+	As soon as you create the cluster, you will see the cluster in "Starting" mode:
 	
 	<img src='images/emr-03-cluster-starting.png'>	
 
-2. **You only need to do this once:** Once the cluster is in "Waiting" mode, click on the **Security Groups for Master** which will take you to the Security Group configuration page, and add port 22 like you did in the homework Tutorial
+2. **You only need to do this once:** Once the cluster is in "Waiting" mode, click on the **Security Groups for Master** which will take you to the Security Group configuration page, and add port 22 like you did in the homework Tutorial (Follow next three screenshots)
 
 	<img src='images/emr-04-cluster-waiting.png'><br>
 	<img src='images/emr-05-edit-master-security-group.png'><br>
@@ -93,7 +93,7 @@ drwxrwxrwx   - hadoop hadoop          0 1970-01-01 00:00 s3://bigdatateaching/sp
 
 4. Copy a file from the course's S3 public bucket **the cluster's HDFS**
 ```
-hadoop fs -cp s3://bigdatateaching/shakespeare/100-0.txt ./`
+hadoop fs -cp s3://bigdatateaching/shakespeare/100-0.txt ./
 hadoop fs -ls
 ```
 
