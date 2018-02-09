@@ -127,7 +127,9 @@ The reference guide for all the HDFS Shell commands is here: [https://hadoop.apa
 
 You will run a Hadoop job using a built-in example that comes with Hadoop. It is the Word Count. You will issue a command that will start the job with a specified `.jar` (Java Archive) file and pass in some parameters. You will use the `100-0.txt` file in HDFS as the input, and you will specify the output to your S3 bucket.
 
-`hadoop jar /usr/lib/hadoop-mapreduce/hadoop-mapreduce-examples.jar wordcount 100-0.txt s3://[[your-s3-bucket]]/shakespearewordcount`
+```
+hadoop jar /usr/lib/hadoop-mapreduce/hadoop-mapreduce-examples.jar wordcount 100-0.txt s3://[[your-s3-bucket]]/shakespearewordcount
+```
 
 You should see something like this:
 
