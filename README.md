@@ -120,8 +120,8 @@ The reference guide for all the HDFS Shell commands is here: [https://hadoop.apa
 
 	```
 	Found 1 items
--rw-r--r--   1 hadoop hadoop    5856576 2018-02-09 00:57 100-0.txt
-```
+	-rw-r--r--   1 hadoop hadoop    5856576 2018-02-09 00:57 100-0.txt
+	```
 
 ## Run a Hadoop job
 
